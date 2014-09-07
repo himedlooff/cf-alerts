@@ -35,7 +35,7 @@ module.exports = function(grunt) {
     opt: {
       // Include path to compiled extra CSS for IE7 and below.
       // Definitely needed if this component depends on an icon font.
-      ltIE8Source: 'static/css/main.lt-ie8.min.css',
+      // ltIE8Source: 'static/css/main.lt-ie8.min.css',
 
       // Include path to compiled alternate CSS for IE8 and below.
       // Definitely needed if this component depends on media queries.
