@@ -1,0 +1,36 @@
+{
+  "name": "cf-alerts",
+  "version": "1.2.0",
+  "description": "Alert patterns for Capital Framework.",
+  "keywords": [
+    "capital-framework",
+    "capital",
+    "alerts",
+    "less"
+  ],
+  "authors": [
+    {
+      "name": "Consumer Financial Protection Bureau",
+      "url": "https://cfpb.github.io/"
+    }
+  ],
+  "homepage": "https://github.com/cfpb/cf-alerts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cfpb/cf-alerts.git"
+  },
+  "license": "https://github.com/cfpb/cf-alerts/blob/gh-pages/TERMS.md",
+  "main": "src/cf-alerts.less",
+  "dependencies": {
+    "cf-core": "git://github.com/cfpb/cf-core.git",
+    "cf-icons": "git://github.com/cfpb/cf-icons.git"
+  },
+  "exportsOverride": {
+    "cf-*": {
+      "css": "src/**/*.css",
+      "less": "src/**/*.less",
+      "fonts": "src/fonts/*.*",
+      "js": "src/**/*.js"
+    }
+  }
+}
